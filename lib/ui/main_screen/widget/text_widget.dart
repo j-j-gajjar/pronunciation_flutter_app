@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:pronunciation/utils/utils.dart';
 
 class TextWidget extends StatelessWidget {
-  const TextWidget({super.key, required this.text, this.color = whiteColor});
+  const TextWidget({
+    Key? key,
+    required this.text,
+    this.color = whiteColor,
+  }) : super(key: key);
   final String text;
   final Color color;
   @override

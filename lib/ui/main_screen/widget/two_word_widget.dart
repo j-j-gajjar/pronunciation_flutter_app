@@ -3,16 +3,16 @@ import 'package:pronunciation/ui/main_screen/main_screen.dart';
 
 class TwoWordsWidget extends StatelessWidget {
   const TwoWordsWidget({
-    super.key,
+    Key? key,
     required this.firstIsChecked,
     required this.secondIsChecked,
-    required this.firstword,
-    required this.secondword,
-  });
+    required this.firstWord,
+    required this.secondWord,
+  }) : super(key: key);
   final bool firstIsChecked;
   final bool secondIsChecked;
-  final String firstword;
-  final String secondword;
+  final String firstWord;
+  final String secondWord;
 
   @override
   Widget build(BuildContext context) {
@@ -23,11 +23,11 @@ class TwoWordsWidget extends StatelessWidget {
         children: [
           DisplayWordWidget(
             isChecked: firstIsChecked,
-            word: firstword,
+            word: firstWord,
           ),
           DisplayWordWidget(
             isChecked: secondIsChecked,
-            word: secondword,
+            word: secondWord,
           ),
         ],
       ),

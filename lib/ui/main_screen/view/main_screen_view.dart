@@ -6,7 +6,7 @@ import 'package:pronunciation/utils/utils.dart';
 import 'package:rive/rive.dart';
 
 class MainScreenView extends StatelessWidget {
-  const MainScreenView({super.key});
+  const MainScreenView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,17 +36,17 @@ class MainScreenView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     TwoWordsWidget(
-                      firstIsChecked: val.currectIndex!.contains(0),
-                      secondIsChecked: val.currectIndex!.contains(1),
-                      firstword: val.word![0],
-                      secondword: val.word![1],
+                      firstIsChecked: val.correctIndex!.contains(0),
+                      secondIsChecked: val.correctIndex!.contains(1),
+                      firstWord: val.word![0],
+                      secondWord: val.word![1],
                     ),
                     const SizedBox(height: 12),
                     TwoWordsWidget(
-                      firstIsChecked: val.currectIndex!.contains(2),
-                      secondIsChecked: val.currectIndex!.contains(3),
-                      firstword: val.word![2],
-                      secondword: val.word![3],
+                      firstIsChecked: val.correctIndex!.contains(2),
+                      secondIsChecked: val.correctIndex!.contains(3),
+                      firstWord: val.word![2],
+                      secondWord: val.word![3],
                     ),
                     const SizedBox(height: 12),
                     Container(),

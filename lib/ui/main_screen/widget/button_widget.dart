@@ -3,10 +3,10 @@ import 'package:pronunciation/utils/utils.dart';
 
 class ButtonWidget extends StatelessWidget {
   const ButtonWidget({
-    super.key,
+    Key? key,
     required this.onPressed,
     required this.child,
-  });
+  }) : super(key: key);
 
   final VoidCallback onPressed;
   final Widget child;

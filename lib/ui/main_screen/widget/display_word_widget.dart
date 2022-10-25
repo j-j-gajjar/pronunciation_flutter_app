@@ -3,10 +3,10 @@ import 'package:pronunciation/utils/utils.dart';
 
 class DisplayWordWidget extends StatelessWidget {
   const DisplayWordWidget({
-    super.key,
+    Key? key,
     required this.isChecked,
     required this.word,
-  });
+  }) : super(key: key);
   final bool isChecked;
   final String word;
 
