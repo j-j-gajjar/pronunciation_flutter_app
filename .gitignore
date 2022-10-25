@@ -72,6 +72,8 @@ analysis_benchmark.json
 .flutter-plugins
 .flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
+*.g.dart 
+*.freezed.dart
 .packages
 .pub-cache/
 .pub/
