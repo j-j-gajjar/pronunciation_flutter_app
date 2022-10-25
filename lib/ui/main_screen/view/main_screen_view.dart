@@ -36,23 +36,23 @@ class MainScreenView extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     TwoWordsWidget(
-                      firstIsChecked: val.correctIndex!.contains(0),
-                      secondIsChecked: val.correctIndex!.contains(1),
-                      firstWord: val.word![0],
-                      secondWord: val.word![1],
+                      firstIsChecked: val.correctIndex.contains(0),
+                      secondIsChecked: val.correctIndex.contains(1),
+                      firstWord: val.word[0],
+                      secondWord: val.word[1],
                     ),
                     const SizedBox(height: 12),
                     TwoWordsWidget(
-                      firstIsChecked: val.correctIndex!.contains(2),
-                      secondIsChecked: val.correctIndex!.contains(3),
-                      firstWord: val.word![2],
-                      secondWord: val.word![3],
+                      firstIsChecked: val.correctIndex.contains(2),
+                      secondIsChecked: val.correctIndex.contains(3),
+                      firstWord: val.word[2],
+                      secondWord: val.word[3],
                     ),
                     const SizedBox(height: 12),
                     Container(),
                     TextWidget(
                       text: val.isListening
-                          ? val.listenedValue!
+                          ? val.listenedValue
                           : val.speechEnabled
                               ? tapToStartText
                               : speechNotAvailableText,

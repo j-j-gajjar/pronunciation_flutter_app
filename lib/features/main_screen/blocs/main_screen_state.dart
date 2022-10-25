@@ -7,9 +7,9 @@ class MainScreenState with _$MainScreenState {
     required List<String> word,
   }) = _GeneratedList;
   const factory MainScreenState.listened({
-    String? listenedValue,
-    List<String>? word,
-    List<int>? currectIndex,
+    required String listenedValue,
+    required List<String> word,
+    required List<int> correctIndex,
     required RiveAnimationController<dynamic> riveAnimationController,
     required bool isListening,
     required bool speechEnabled,

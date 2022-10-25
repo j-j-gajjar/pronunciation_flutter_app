@@ -36,7 +36,7 @@ class MainScreenBloc extends Bloc<MainScreenEvent, MainScreenState> {
     Emitter<MainScreenState> emit,
   ) async {
     emit(const _Loading());
-    getNewtext();
+    getNewText();
     _controller = OneShotAnimation(
       'walk',
       autoplay: false,
@@ -55,7 +55,7 @@ class MainScreenBloc extends Bloc<MainScreenEvent, MainScreenState> {
       onResult: _listen,
       listenFor: const Duration(seconds: 40),
     );
-    getNewtext(clearText: true);
+    getNewText(clearText: true);
     _controller.isActive = true;
     emitListened();
   }
@@ -76,7 +76,7 @@ class MainScreenBloc extends Bloc<MainScreenEvent, MainScreenState> {
         checkIsValid.contains(3);
   }
 
-  void getNewtext({bool clearText = false}) {
+  void getNewText({bool clearText = false}) {
     if (clearText && !checkAllTrue()) {
       return;
     }
@@ -100,7 +100,7 @@ class MainScreenBloc extends Bloc<MainScreenEvent, MainScreenState> {
         }
       }
       if (checkAllTrue()) {
-        // getNewtext(clearText:true);
+        // getNewText(clearText:true);
         _restart();
         break;
       }
@@ -118,7 +118,7 @@ class MainScreenBloc extends Bloc<MainScreenEvent, MainScreenState> {
       MainScreenState.listened(
         listenedValue: _lastWords,
         word: allNouns,
-        currectIndex: checkIsValid,
+        correctIndex: checkIsValid,
         riveAnimationController: _controller,
         isListening: _speechToText.isListening,
         speechEnabled: _speechEnabled,
@@ -131,7 +131,7 @@ class MainScreenBloc extends Bloc<MainScreenEvent, MainScreenState> {
     Emitter<MainScreenState> emit,
   ) async {
     await _restart();
-    getNewtext();
+    getNewText();
     emitListened();
   }
 }
