@@ -1,0 +1,16 @@
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#1f1930"
+  image: assets/splash/space.png
+  branding: assets/splash/space.png
+  color_dark: "#1f1930"
+  image_dark: assets/splash/space.png
+  branding_dark: assets/splash/space.png
+
+  android_12:
+    image: assets/splash/space.png
+    icon_background_color: "#1f1930"
+    image_dark: assets/splash/space.png
+    icon_background_color_dark: "#1f1930"
+
+  web: true

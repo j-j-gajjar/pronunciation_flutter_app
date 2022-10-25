@@ -1,0 +1,47 @@
+name: pronunciation
+description: pronunciation_app
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  english_words: ^4.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  freezed_annotation: ^2.2.0
+  rive: ^0.9.1
+  speech_to_text: ^6.1.0
+
+dev_dependencies:
+  build_runner: ^2.3.2
+  flutter_launcher_icons: ^0.10.0
+  flutter_native_splash: ^2.2.9
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.2.0
+  json_serializable: ^6.5.3
+  lint: ^1.10.0
+  meta: ^1.7.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icon/icon.jpeg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon.jpeg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/riv/background.riv
+    - assets/riv/robot.riv
