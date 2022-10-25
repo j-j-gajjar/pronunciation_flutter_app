@@ -12,9 +12,9 @@
 
 Reference
 
-icon - https://in.pinterest.com/pin/818670038507629253/
-rive background - https://rive.app/community/1809-3568-cosmos/
-rive robot - https://rive.app/community/2271-4486-spaceman-test-test/
+ - icon - https://in.pinterest.com/pin/818670038507629253/
+ - rive background - https://rive.app/community/1809-3568-cosmos/
+ - rive robot - https://rive.app/community/2271-4486-spaceman-test-test/
 
 
 
