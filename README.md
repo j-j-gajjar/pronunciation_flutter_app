@@ -1,6 +1,11 @@
-# pronunciation
+# pronunciation [![GitHub stars](https://img.shields.io/github/stars/j-j-gajjar/pronunciation_flutter_app?style=social)](https://github.com/login?return_to=%2Fj-j-gajjar%pronunciation_flutter_app) ![GitHub forks](https://img.shields.io/github/forks/j-j-gajjar/pronunciation_flutter_app?style=social)
 
 "pronunciation_app" is an educational game that makes practicing English pronunciation more fun!
+
+
+|             | Android | iOS | Web |
+|-------------|---------|-----|-----|
+| **Support** |    ✅   | ✅ | ✗  |
 
  ## Todos
 
