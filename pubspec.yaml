@@ -33,12 +33,12 @@ flutter_icons:
   android: "ic_launcher"
   ios: true
   image_path: "assets/icon/icon.jpeg"
-  min_sdk_android: 21 # android min sdk min:16, default 21
+  min_sdk_android: 16 # android min sdk min:16, default 21
   web:
     generate: true
     image_path: "assets/icon/icon.jpeg"
-    background_color: "#hexcode"
-    theme_color: "#hexcode"
+    background_color: "#1f1930"
+    theme_color: "#1f1930"
 
 flutter:
   uses-material-design: true
