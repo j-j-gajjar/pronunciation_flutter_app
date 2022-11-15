@@ -1,4 +1,6 @@
-# Pronunciation Flutter Application [![GitHub stars](https://img.shields.io/github/stars/j-j-gajjar/pronunciation_flutter_app?style=social)](https://github.com/login?return_to=%2Fj-j-gajjar%pronunciation_flutter_app) ![GitHub forks](https://img.shields.io/github/forks/j-j-gajjar/pronunciation_flutter_app?style=social)
+# Pronunciation Flutter Application [![GitHub stars](https://img.shields.io/github/stars/j-j-gajjar/pronunciation_flutter_app?style=social)](https://github.com/j-j-gajjar/pronunciation_flutter_app) [![GitHub forks](https://img.shields.io/github/forks/j-j-gajjar/pronunciation_flutter_app?style=social)](https://github.com/j-j-gajjar/pronunciation_flutter_app) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/j-j-gajjar/pronunciation_flutter_app/blob/main/LICENSE)
+
+
 
 "pronunciation_app" is an educational game that makes practicing English pronunciation more fun!
 
@@ -14,6 +16,14 @@
 - [x] Bloc Pattern.
 - [x] Speech to text support. 
 - [x] Sound null safety
+
+ ## How to run
+ 
+ ```powershell
+flutter pub get
+flutter pub run build_runner build
+```
+
 
 Reference
 
