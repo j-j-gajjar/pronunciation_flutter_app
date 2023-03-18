@@ -1,46 +1,35 @@
-# Pronunciation Flutter Application [![GitHub stars](https://img.shields.io/github/stars/j-j-gajjar/pronunciation_flutter_app?style=social)](https://github.com/j-j-gajjar/pronunciation_flutter_app) [![GitHub forks](https://img.shields.io/github/forks/j-j-gajjar/pronunciation_flutter_app?style=social)](https://github.com/j-j-gajjar/pronunciation_flutter_app) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/j-j-gajjar/pronunciation_flutter_app/blob/main/LICENSE)
+# Pronunciation Flutter Application
+"Pronunciation Flutter Application" is an educational game that makes practicing English pronunciation more fun! The app is currently available on Android and iOS platforms and includes a beautiful UI, Rive animation, Bloc pattern, speech-to-text support, and sound null safety.
 
+# Features
+* Beautiful UI
+* Rive Animation
+* Bloc Pattern
+* Speech-to-text support
 
+# Platforms
+* Android
+* iOS
 
-"pronunciation_app" is an educational game that makes practicing English pronunciation more fun!
+# Getting Started
+To get started with this project, follow these steps:
 
+* Clone the project to your local machine.
+* Open the project in your preferred IDE or text editor.
+* Run `flutter pub get` to install the required dependencies.
+* Run `flutter pub run build_runner build` to generate code.
+* Run `flutter pub run flutter_launcher_icons:main` to generate app icons.
+* Run `flutter pub run flutter_native_splash:create` to generate app splash screens.
+* Use the provided functions and tools in your application.
 
-|             | Android | iOS | Web |
-|-------------|---------|-----|-----|
-| **Support** |    ✅   | ✅ | ✗  |
-
- ## Todos
-
-- [x] Beautiful UI
-- [x] Rive Animation
-- [x] Bloc Pattern.
-- [x] Speech to text support. 
-- [x] Sound null safety
-
- ## How to run
- 
- ```powershell
-flutter pub get
-flutter pub run build_runner build
-flutter pub run flutter_launcher_icons:main
-flutter pub run flutter_native_splash:create
-
-```
-
-
-Reference
-
- - icon - https://in.pinterest.com/pin/818670038507629253/
- - rive background - https://rive.app/community/1809-3568-cosmos/
- - rive robot - https://rive.app/community/2271-4486-spaceman-test-test/
-
+#Reference
+* Icon - https://in.pinterest.com/pin/818670038507629253/
+* Rive Background - https://rive.app/community/1809-3568-cosmos/
+* Rive Robot - https://rive.app/community/2271-4486-spaceman-test-test/
 
 <hr/>
 
   <img src="https://i.imgur.com/EOk9nsL.png"   width="200">     <img src="https://i.imgur.com/S8DrmOO.png"   width="200">
 
-
-
-## Pull Requests
-
+# Contributing
 I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
