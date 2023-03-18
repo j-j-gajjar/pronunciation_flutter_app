@@ -7,6 +7,9 @@
 * Bloc Pattern
 * Speech-to-text support
 
+# Demo
+You can try a live demo of Mathematics Flutter at https://jaygajjar.ml/pronunciation_flutter_app/
+
 # Platforms
 * Android
 * iOS
