@@ -8,7 +8,7 @@
 * Speech-to-text support
 
 # Demo
-You can try a live demo of Mathematics Flutter at https://jaygajjar.ml/pronunciation_flutter_app/
+You can try a live demo of Mathematics Flutter at https://j-j-gajjar.github.io/pronunciation_flutter_app/
 
 # Platforms
 * Android
